@@ -29,7 +29,7 @@ public class ActorController {
     private final ActorServiceImpl actorService;
 
     /**
-     * Создает нового района
+     * Создает нового актера
      * @param actor - объект актера
      * @return сохраненный объект актера
      */
@@ -94,4 +94,5 @@ public class ActorController {
         return actorService.addMovieToActor(actorId, movieId);
     }
 }
+
 
